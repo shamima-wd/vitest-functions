@@ -17,9 +17,23 @@ I denne opgave skal du arbejde med test-drevet udvikling (TDD) ved hjælp af Vit
    npm install
    ```
 
-2. Kør testene:
+2. Kør alle testene:
    ```bash
    npm run test
    ```
 
-3. Arbejd med funktionerne og testene i henholdsvis `functions.test.js` og `more-functions.test.js`.
+3. Kør kun tests for `premade-functions.js`:
+   ```bash
+   npm run test:premade
+   ```
+
+4. Kør kun tests for `my-functions.js`:
+   ```bash
+   npm run test:my
+   ```
+
+## Tips
+
+- Brug `npm run test:premade` mens du arbejder med del 1 af opgaven
+- Brug `npm run test:my` mens du arbejder med del 2 af opgaven
+- Testene kører automatisk og opdateres når du gemmer dine filer
